@@ -8,6 +8,7 @@ public class Mortgage {
         while (salary < everyYearSum) {
             double balance = everyYearSum - salary;
             if (balance > 0) {
+                percentSum = balance * (percent / 100);
                 everyYearSum = balance + percentSum;
                 year++;
             }
