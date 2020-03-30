@@ -66,10 +66,10 @@ public class MergeTest {
     @Test
     public void whenLeftLittle() {
         Merge algo = new Merge();
-        int[] expect = {10, 20, 30, 40, 50, 60, 70, 80, 90, 95};
+        int[] expect = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
         int[] result = algo.merge(
-                new int[]{50, 60, 95, 90},
-                new int[]{80, 10, 20, 30, 40, 70}
+                new int[]{50, 60, 70, 80, 90, 100},
+                new int[]{10, 20, 30, 40}
         );
         assertThat(result, is(expect));
     }
