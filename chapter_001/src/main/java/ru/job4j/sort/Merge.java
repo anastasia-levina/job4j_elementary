@@ -1,8 +1,5 @@
 package ru.job4j.sort;
 
-import ru.job4j.array.FindLoop;
-import ru.job4j.array.MinDiapason;
-
 import java.util.Arrays;
 
 public class Merge {
